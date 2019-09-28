@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/2a/8faf7a42/BaseSlider`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/b0/6bbdbcac/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/d3/0f67beaf/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/e5/9ee747d0/Slider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="9670000" />
+      <workItem from="1569686116545" duration="9929000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569699914620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu.">
+      <created>1569704276594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569704276594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="[GameMenu] Allowing the user to play and exit the game via the main menu." />
     <MESSAGE value="[GameMenu] Allowing the user to change the game's volume in the main menu." />
     <MESSAGE value="[GameMenu] Creating the speech bubble." />
-    <option name="LAST_COMMIT_MESSAGE" value="[GameMenu] Creating the speech bubble." />
+    <MESSAGE value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

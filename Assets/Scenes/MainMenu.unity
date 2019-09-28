@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 31.9
+  m_fontSize: 28.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6987,6 +6987,51 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.31139004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12489651
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.63324314
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69745284
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 164.13899
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 143.663
+      objectReference: {fileID: 0}
+    - target: {fileID: 3674741053296429516, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90.28999
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 549c69af39b84624b8a053537c407def, type: 3}
 --- !u!1 &1792941969 stripped
@@ -7012,9 +7057,9 @@ MonoBehaviour:
   - {fileID: 940561370}
   - {fileID: 562359445}
   - {fileID: 664576380}
-  movementTutorialSprite: {fileID: 21300000, guid: 85d46c7add1129741a0d78fadba6998e,
+  movementTutorialSprite: {fileID: 21300000, guid: 5c302f87602e4c548b038c37a8caa37a,
     type: 3}
-  returnToMenuTutorialSprite: {fileID: 21300000, guid: 623a7345ca6d38f4280b86c32ffe7c15,
+  returnToMenuTutorialSprite: {fileID: 21300000, guid: 581a2796e754eb64998d1ca38697e07f,
     type: 3}
   speechBubble: {fileID: 838368594}
 --- !u!4 &1792941976 stripped

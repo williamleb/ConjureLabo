@@ -11,6 +11,7 @@
         <e p="Scripts" t="Include">
           <e p="Billboard.cs" t="Include" />
           <e p="GameEnding.cs" t="Include" />
+          <e p="GlobalControls.cs" t="Include" />
           <e p="LightFlicker.cs" t="Include" />
           <e p="Observer.cs" t="Include" />
           <e p="Outliner.cs" t="Include" />
