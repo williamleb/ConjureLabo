@@ -19,11 +19,6 @@ namespace Game
             SceneManager.LoadScene(Scenes.MainScene);
         }
 
-        public void ShowControls()
-        {
-            
-        }
-
         public void ExitGame()
         {
             Application.Quit();

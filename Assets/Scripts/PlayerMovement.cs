@@ -12,7 +12,11 @@ namespace Game
         private Animator animator;
         private Rigidbody rigidBody;
         private AudioSource audioSource;
-        
+
+        private bool isWalking;
+
+        public bool IsWalking => isWalking;
+
         private void Awake()
         {
             movement = new Vector3();
@@ -21,6 +25,8 @@ namespace Game
             animator = GetComponent<Animator>();
             rigidBody = GetComponent<Rigidbody>();
             audioSource = GetComponent<AudioSource>();
+
+            isWalking = false;
         }
         
         private void FixedUpdate()
@@ -34,7 +40,7 @@ namespace Game
             var hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
             var hasVerticalInput = !Mathf.Approximately(vertical, 0f);
 
-            var isWalking = hasHorizontalInput || hasVerticalInput;
+            isWalking = hasHorizontalInput || hasVerticalInput;
             
             animator.SetBool(JohnLemonAnimatorParameters.IsWalking, isWalking);
 

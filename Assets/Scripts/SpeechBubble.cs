@@ -21,23 +21,29 @@ namespace Game
         private bool isShowing;
         private bool isHiding;
 
+        private bool isShowed;
+
+        public bool IsShowed => isShowed;
+
         private void Awake()
         {
             offset = transform.position - positionToFollow.position;
 
             isShowing = false;
             isHiding = false;
+
+            isShowed = false;
         }
 
         private void Start()
         {
             if (startsHidden)
             {
-                speechBubbleCanvasGroup.alpha = 0f;
+                HideSpeechBubble();
             }
             else
             {
-                speechBubbleCanvasGroup.alpha = 1f;
+                ShowSpeechBubble();
             }
         }
 
@@ -80,7 +86,7 @@ namespace Game
             if (Math.Abs(transform.localScale.x) < 0.1f)
             {
                 isHiding = false;
-                speechBubbleCanvasGroup.alpha = 0f;
+                HideSpeechBubble();
                 transform.localScale = new Vector3(0f, 0f, 0f);
             }
             else
@@ -94,12 +100,24 @@ namespace Game
             }
         }
 
+        private void ShowSpeechBubble()
+        {
+            speechBubbleCanvasGroup.alpha = 1f;
+            isShowed = true;
+        }
+
+        private void HideSpeechBubble()
+        {
+            speechBubbleCanvasGroup.alpha = 0f;
+            isShowed = false;
+        }
+
         public void Show(Sprite spriteToSay)
         {
             isShowing = true;
             isHiding = false;
 
-            speechBubbleCanvasGroup.alpha = 1f;
+            ShowSpeechBubble();
             speechImage.sprite = spriteToSay;
 
             transform.localScale = new Vector3(0f, 0f, 0f);
@@ -109,8 +127,6 @@ namespace Game
         {
             isHiding = true;
             isShowing = false;
-            
-            transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 }
