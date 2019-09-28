@@ -9,6 +9,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Billboard.cs" t="Include" />
           <e p="GameEnding.cs" t="Include" />
           <e p="LightFlicker.cs" t="Include" />
           <e p="Observer.cs" t="Include" />
@@ -18,6 +19,7 @@
             <e p="Scenes.cs" t="Include" />
           </e>
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="SpeechBubble.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="MainMenu.cs" t="Include" />
           </e>
