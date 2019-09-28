@@ -15,6 +15,7 @@
           <e p="Outliner.cs" t="Include" />
           <e p="Parameters" t="Include">
             <e p="JohnLemonAnimatorParameters.cs" t="Include" />
+            <e p="Scenes.cs" t="Include" />
           </e>
           <e p="PlayerMovement.cs" t="Include" />
           <e p="WaypointPatrol.cs" t="Include" />

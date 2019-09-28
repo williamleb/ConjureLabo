@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Parameters;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameEnding : MonoBehaviour
@@ -65,7 +66,7 @@ public class GameEnding : MonoBehaviour
         {
             if (restartLevel)
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(Scenes.MainScene);
             }
             else
             {
