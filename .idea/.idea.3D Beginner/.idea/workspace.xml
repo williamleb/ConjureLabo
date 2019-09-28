@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/b0/6bbdbcac/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,14 +41,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -50,7 +60,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,8 +108,16 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="254000" />
+      <workItem from="1569686116545" duration="2159000" />
     </task>
+    <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
+      <created>1569686505296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569686505296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="[GameMenu] Creating static variables for scenes." />
+    <option name="LAST_COMMIT_MESSAGE" value="[GameMenu] Creating static variables for scenes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

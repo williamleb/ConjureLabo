@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace DefaultNamespace
+namespace Game
 {
     public class WaypointPatrol : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Parameters
+namespace Game
 {
     public static class JohnLemonAnimatorParameters
     {
