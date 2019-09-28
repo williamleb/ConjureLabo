@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Hover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Hover.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,13 +51,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hover.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +117,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="9929000" />
+      <workItem from="1569686116545" duration="11365000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -150,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569704276594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu.">
+      <created>1569704637342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569704637342</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu.">
+      <created>1569704637859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569704637859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +196,8 @@
     <MESSAGE value="[GameMenu] Allowing the user to change the game's volume in the main menu." />
     <MESSAGE value="[GameMenu] Creating the speech bubble." />
     <MESSAGE value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
+    <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
