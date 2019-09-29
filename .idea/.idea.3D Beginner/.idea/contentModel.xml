@@ -15,13 +15,17 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Billboard.cs" t="Include" />
+          <e p="CollectibleHover.cs" t="Include" />
+          <e p="FinalDoor.cs" t="Include" />
           <e p="GameEnding.cs" t="Include" />
           <e p="GlobalControls.cs" t="Include" />
-          <e p="Hover.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
+          <e p="KeyHolder.cs" t="Include" />
           <e p="LightFlicker.cs" t="Include" />
           <e p="Observer.cs" t="Include" />
           <e p="Outliner.cs" t="Include" />
           <e p="Parameters" t="Include">
+            <e p="FinalDoorAnimatorParameters.cs" t="Include" />
             <e p="JohnLemonAnimatorParameters.cs" t="Include" />
             <e p="Scenes.cs" t="Include" />
           </e>
@@ -64,6 +68,13 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Tim's Assets" t="Include">
+          <e p="Doors" t="Include">
+            <e p="Shader" t="Include">
+              <e p="BloodyDoor.shader" t="Include" />
+            </e>
           </e>
         </e>
         <e p="TutorialInfo" t="Include">
