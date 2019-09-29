@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +65,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/FinalDoorAnimatorParameters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +128,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="17007000" />
+      <workItem from="1569686116545" duration="18187000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569791478765</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[Key] The key goes to a random spot at the start of the game.">
+      <created>1569796338537</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569796338537</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +238,8 @@
     <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
     <MESSAGE value="[Key] Creating the visual for the key" />
     <MESSAGE value="[Key] Creating the logic with the key and the door opening." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Key] Creating the logic with the key and the door opening." />
+    <MESSAGE value="[Key] The key goes to a random spot at the start of the game." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Key] The key goes to a random spot at the start of the game." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

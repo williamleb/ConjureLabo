@@ -19,6 +19,8 @@ namespace Game
             if (keyHolder != null && keyHolder.HasKey)
             {
                 Open();
+                
+                keyHolder.RemoveKey();
             }
         }
 
