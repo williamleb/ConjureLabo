@@ -43,5 +43,10 @@ namespace Game
                 isGoingDown = true;
             }
         }
+
+        public void ResetCenter()
+        {
+            center = transform.position;
+        }
     }
 }

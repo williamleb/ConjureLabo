@@ -21,6 +21,7 @@
           <e p="GlobalControls.cs" t="Include" />
           <e p="Key.cs" t="Include" />
           <e p="KeyHolder.cs" t="Include" />
+          <e p="KeySpawner.cs" t="Include" />
           <e p="LightFlicker.cs" t="Include" />
           <e p="Observer.cs" t="Include" />
           <e p="Outliner.cs" t="Include" />

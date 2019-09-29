@@ -9,9 +9,13 @@ namespace Game
 
         private bool isPicked;
 
+        private CollectibleHover collectibleHover;
+
         private void Awake()
         {
             isPicked = false;
+
+            collectibleHover = GetComponent<CollectibleHover>();
         }
 
         private void OnTriggerEnter(Collider other)
@@ -23,11 +27,19 @@ namespace Game
                 if (keyHolder != null)
                 {
                     keyHolder.GiveKey();
+                    
+                    keyVisual.SetActive(false);
+                    isPicked = true;
                 }
-
-                keyVisual.SetActive(false);
-                isPicked = true;
             }
+        }
+
+        public void Reset()
+        {
+            isPicked = false;
+            keyVisual.SetActive(true);
+            
+            collectibleHover.ResetCenter();
         }
     }
 }
