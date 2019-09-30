@@ -5,6 +5,9 @@ namespace Game
 {
     public class FinalDoor : MonoBehaviour
     {
+        [SerializeField] private Sprite keySprite;
+        [SerializeField] private SpeechBubble speechBubble;
+        
         private Animator animator;
 
         private void Awake()
@@ -16,11 +19,26 @@ namespace Game
         {
             var keyHolder = other.GetComponent<KeyHolder>();
 
-            if (keyHolder != null && keyHolder.HasKey)
+            if (keyHolder != null)
             {
-                Open();
+                if (keyHolder.HasKey)
+                {
+                    Open();
                 
-                keyHolder.RemoveKey();
+                    keyHolder.RemoveKey();
+                }
+                else if (!speechBubble.IsShowed)
+                {
+                    speechBubble.Show(keySprite);
+                }
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.GetComponent<KeyHolder>() != null)
+            {
+                speechBubble.Hide();
             }
         }
 
