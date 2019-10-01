@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ghost.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Investigation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Investigation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animation/FinalDoor@Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animation/FinalDoor@Open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment/End/FinalDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/End/FinalDoor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ghost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ghost.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/b0/6bbdbcac/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,8 +45,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outliner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Investigation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/d3/0f67beaf/Button.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,7 +66,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" />
@@ -74,6 +83,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Investigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
       </list>
     </option>
   </component>
@@ -132,7 +144,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="22976000" />
+      <workItem from="1569686116545" duration="26978000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -225,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569804049159</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[Key] Adding audio for the door and the key.">
+      <created>1569955542477</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569955542478</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Key] Adding audio for the door and the key.">
+      <created>1569955542985</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569955542985</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +285,8 @@
     <MESSAGE value="[Key] The key goes to a random spot at the start of the game." />
     <MESSAGE value="[Key] Allowing the character to hold the key." />
     <MESSAGE value="[Key] Showing a speech bubble whenever the player reaches the door without the key." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Key] Showing a speech bubble whenever the player reaches the door without the key." />
+    <MESSAGE value="[Key] Adding audio for the door and the key." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Key] Adding audio for the door and the key." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,11 +295,30 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" initialLine="28">
+            <startOffsets>
+              <option value="575" />
+            </startOffsets>
+            <endOffsets>
+              <option value="603" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
         <watch expression="keyspot == null" language="C#" custom="RiderImportsList:" />
+        <watch expression="navMeshAgent.remainingDistance &lt; navMeshAgent.stoppingDistance" language="C#" custom="RiderImportsList:" />
+        <watch expression="navMeshAgent.stoppingDistance" language="C#" custom="RiderImportsList:" />
+        <watch expression="navMeshAgent.remainingDistance" language="C#" custom="RiderImportsList:" />
+        <watch expression="navMeshAgent.stoppingDistance" language="C#" custom="RiderImportsList:" />
+        <watch expression="currentWaypointIndex" language="C#" custom="RiderImportsList:" />
+        <watch expression="navMeshAgent.remainingDistance" language="C#" custom="RiderImportsList:" />
       </configuration>
     </watches-manager>
   </component>
