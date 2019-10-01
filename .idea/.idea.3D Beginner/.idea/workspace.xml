@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Animation/FinalDoor@Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animation/FinalDoor@Open.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animators/FinalDoor.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animators/FinalDoor.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment/End/FinalDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/End/FinalDoor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tim's Assets/Doors/Animation/Door.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tim's Assets/Doors/Animation/Door.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +69,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Hover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/FinalDoorAnimatorParameters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" />
       </list>
     </option>
   </component>
@@ -131,7 +132,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="20026000" />
+      <workItem from="1569686116545" duration="22976000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569798455846</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[Key] Showing a speech bubble whenever the player reaches the door without the key.">
+      <created>1569804049159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569804049159</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +258,8 @@
     <MESSAGE value="[Key] Creating the logic with the key and the door opening." />
     <MESSAGE value="[Key] The key goes to a random spot at the start of the game." />
     <MESSAGE value="[Key] Allowing the character to hold the key." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Key] Allowing the character to hold the key." />
+    <MESSAGE value="[Key] Showing a speech bubble whenever the player reaches the door without the key." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Key] Showing a speech bubble whenever the player reaches the door without the key." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

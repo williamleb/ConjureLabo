@@ -10,12 +10,14 @@ namespace Game
         private bool isPicked;
 
         private CollectibleHover collectibleHover;
+        private AudioSource audioSource;
 
         private void Awake()
         {
             isPicked = false;
 
             collectibleHover = GetComponent<CollectibleHover>();
+            audioSource = GetComponent<AudioSource>();
         }
 
         private void OnTriggerEnter(Collider other)
@@ -29,6 +31,7 @@ namespace Game
                     keyHolder.GiveKey();
                     
                     keyVisual.SetActive(false);
+                    audioSource.Play();
                     isPicked = true;
                 }
             }

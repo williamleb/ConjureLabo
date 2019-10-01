@@ -8,10 +8,17 @@ namespace Game
         [SerializeField] private Sprite keySprite;
         [SerializeField] private SpeechBubble speechBubble;
         
+        [SerializeField] private AudioSource unlockAudioSource;
+        [SerializeField] private AudioSource squeekAudioSource;
+        
         private Animator animator;
+
+        private bool isOpened;
 
         private void Awake()
         {
+            isOpened = false;
+            
             animator = GetComponent<Animator>();
         }
 
@@ -44,7 +51,13 @@ namespace Game
 
         private void Open()
         {
-            animator.SetTrigger(FinalDoorAnimatorParameters.Open);
+            if (!isOpened)
+            {
+                animator.SetTrigger(FinalDoorAnimatorParameters.Open);
+                unlockAudioSource.Play();
+                squeekAudioSource.Play();
+                isOpened = true;
+            }
         }
     }
 }
