@@ -28,13 +28,10 @@ namespace Game
             OnInvestigationRequest?.Invoke();
         }
 
-        private void OnEnable()
-        {
-            navMeshAgent.SetDestination(investigatingPosition);
-        }
-
         private void Update()
         {
+            navMeshAgent.SetDestination(investigatingPosition);
+
             if (CheckIfInvestigationIsFinished())
             { 
                 OnInvestigationFinished?.Invoke();
