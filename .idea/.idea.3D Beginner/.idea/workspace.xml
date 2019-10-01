@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/2a/8faf7a42/BaseSlider`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Materials/Animated.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" />
@@ -96,6 +88,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
       </list>
     </option>
   </component>
@@ -154,7 +147,7 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="29802000" />
+      <workItem from="1569686116545" duration="30393000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -275,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569961308657</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[InvisibilityPad] Added the invisibility pad.">
+      <created>1569964783040</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569964783040</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +312,8 @@
     <MESSAGE value="[Key] Adding audio for the door and the key." />
     <MESSAGE value="[BetterGhostAI] The ghosts can now start an investigation." />
     <MESSAGE value="[BetterGhostAI] Allowing the investigation to change target while investigation." />
-    <option name="LAST_COMMIT_MESSAGE" value="[BetterGhostAI] Allowing the investigation to change target while investigation." />
+    <MESSAGE value="[InvisibilityPad] Added the invisibility pad." />
+    <option name="LAST_COMMIT_MESSAGE" value="[InvisibilityPad] Added the invisibility pad." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

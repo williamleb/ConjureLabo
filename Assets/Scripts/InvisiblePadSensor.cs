@@ -7,23 +7,29 @@ namespace Game
     {
         private MaterialSwapper materialSwapper;
 
+        private bool isInvisible;
+
+        public bool IsInvisible => isInvisible;
+
         private void Awake()
         {
             materialSwapper = GetComponent<MaterialSwapper>();
+
+            isInvisible = false;
         }
 
         public void OnInvisiblePadEntered()
         {
             materialSwapper.SwapWithCurrent();
-            
-            // TODO
+
+            isInvisible = true;
         }
 
         public void OnInvisiblePadLeft()
         {
             materialSwapper.RevertSwap();
-            
-            // TODO
+
+            isInvisible = false;
         }
     }
 }

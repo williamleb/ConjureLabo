@@ -44,7 +44,11 @@ namespace Game
                 {
                     if (raycastHit.collider.transform == player)
                     {
-                        gameEnding.CaughtPlayer();
+                        var invisiblePadSensor = raycastHit.collider.GetComponent<InvisiblePadSensor>();
+                        if (invisiblePadSensor != null && !invisiblePadSensor.IsInvisible)
+                        {
+                            gameEnding.CaughtPlayer();
+                        }
                     }
                 }
             }
