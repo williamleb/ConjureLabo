@@ -20,15 +20,13 @@ namespace Game
 
         public void OnInvisiblePadEntered()
         {
-            materialSwapper.SwapWithCurrent();
-
+            materialSwapper.Swap();
             isInvisible = true;
         }
 
         public void OnInvisiblePadLeft()
         {
-            materialSwapper.RevertSwap();
-
+            materialSwapper.Swap();
             isInvisible = false;
         }
     }

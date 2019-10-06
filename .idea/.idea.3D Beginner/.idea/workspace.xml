@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,30 +29,24 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/0a/9eb983f2/SkinnedMeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/b0/6bbdbcac/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/FinalDoorAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outliner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Investigation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/d3/0f67beaf/Button.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,11 +81,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Investigation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Invisible.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +144,8 @@
       <workItem from="1569016072288" duration="1783000" />
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
-      <workItem from="1569686116545" duration="30393000" />
+      <workItem from="1569686116545" duration="31429000" />
+      <workItem from="1570392255532" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -275,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569964783040</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[InvisibilityPad] Making the player invincible while invisible.">
+      <created>1569965430419</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569965430419</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +318,8 @@
     <MESSAGE value="[BetterGhostAI] The ghosts can now start an investigation." />
     <MESSAGE value="[BetterGhostAI] Allowing the investigation to change target while investigation." />
     <MESSAGE value="[InvisibilityPad] Added the invisibility pad." />
-    <option name="LAST_COMMIT_MESSAGE" value="[InvisibilityPad] Added the invisibility pad." />
+    <MESSAGE value="[InvisibilityPad] Making the player invincible while invisible." />
+    <option name="LAST_COMMIT_MESSAGE" value="[InvisibilityPad] Making the player invincible while invisible." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

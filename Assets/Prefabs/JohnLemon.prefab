@@ -507,9 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f042565f4eb439ca889b65fa19d46cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invisibleMaterials:
-  - {fileID: 2100000, guid: c31694c317b4f8242b56ed7d73b2aa51, type: 2}
-  - {fileID: 2100000, guid: 83e486e36368e2f43a8e7066b313c9bf, type: 2}
+  swapMaterials: []
   objectRenderer: {fileID: 7702654967214467898}
 --- !u!114 &1339118209
 MonoBehaviour:
@@ -1551,7 +1549,11 @@ PrefabInstance:
       propertyPath: m_Shadows.m_Type
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2103234664, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 5020635640284783645, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 6836782460440226406, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 725454718051005934, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
 --- !u!1 &5271088245418890052 stripped
 GameObject:
