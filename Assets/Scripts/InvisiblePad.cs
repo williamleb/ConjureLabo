@@ -5,14 +5,33 @@ namespace Game
 {
     public class InvisiblePad : MonoBehaviour
     {
+        private AudioSource audioSource;
+
+        private void Awake()
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+
         private void OnTriggerEnter(Collider other)
         {
-            other.GetComponent<InvisiblePadSensor>()?.OnInvisiblePadEntered();
+            var invisiblePadSensor = other.GetComponent<InvisiblePadSensor>();
+
+            if (invisiblePadSensor != null)
+            {
+                invisiblePadSensor.OnInvisiblePadEntered();
+                audioSource.Play();
+            }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            other.GetComponent<InvisiblePadSensor>()?.OnInvisiblePadLeft();
+            var invisiblePadSensor = other.GetComponent<InvisiblePadSensor>();
+            
+            if (invisiblePadSensor != null)
+            {
+                invisiblePadSensor.OnInvisiblePadLeft();
+                audioSource.Play();
+            }
         }
     }
 }

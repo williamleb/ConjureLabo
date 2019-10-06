@@ -4,9 +4,9 @@
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,10 +82,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Investigation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Invisible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapperEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +146,7 @@
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
-      <workItem from="1570392255532" duration="674000" />
+      <workItem from="1570392255532" duration="2806000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -280,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569965430419</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[InvisiblePad] Changing the material swapper so it actually swaps materials.">
+      <created>1570392959544</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570392959544</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +327,8 @@
     <MESSAGE value="[BetterGhostAI] Allowing the investigation to change target while investigation." />
     <MESSAGE value="[InvisibilityPad] Added the invisibility pad." />
     <MESSAGE value="[InvisibilityPad] Making the player invincible while invisible." />
-    <option name="LAST_COMMIT_MESSAGE" value="[InvisibilityPad] Making the player invincible while invisible." />
+    <MESSAGE value="[InvisiblePad] Changing the material swapper so it actually swaps materials." />
+    <option name="LAST_COMMIT_MESSAGE" value="[InvisiblePad] Changing the material swapper so it actually swaps materials." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
