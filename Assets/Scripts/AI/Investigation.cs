@@ -20,19 +20,15 @@ namespace Game
         private void Awake()
         {
             investigatingPosition = Vector3.zero;
-
             navMeshAgent = GetComponent<NavMeshAgent>();
-        }
-
-        private void OnEnable()
-        {
+            
             if (curseEventChannel)
             {
                 curseEventChannel.OnCursePositionUpdated += RequestInvestigation;
             }
         }
 
-        private void OnDisable()
+        private void OnDestroy()
         {
             if (curseEventChannel)
             {

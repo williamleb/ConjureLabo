@@ -7993,6 +7993,20 @@ PrefabInstance:
       propertyPath: runToPosition
       value: 
       objectReference: {fileID: 1339118213}
+    - target: {fileID: 326213812, guid: b931d3a076eb0fd47ba2a4d62884c10d, type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 227977529279981690, guid: b931d3a076eb0fd47ba2a4d62884c10d,
+        type: 3}
+      propertyPath: m_Height
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 227977529279981690, guid: b931d3a076eb0fd47ba2a4d62884c10d,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1323555803008557255, guid: b931d3a076eb0fd47ba2a4d62884c10d,
         type: 3}
       propertyPath: player
