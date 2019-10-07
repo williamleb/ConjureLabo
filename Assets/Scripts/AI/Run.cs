@@ -16,10 +16,7 @@ namespace Game
         private void Awake()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
-        }
-
-        private void Start()
-        {
+            
             savedSpeed = navMeshAgent.speed;
         }
 

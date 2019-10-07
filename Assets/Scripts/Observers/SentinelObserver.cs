@@ -1,4 +1,6 @@
-﻿namespace Game
+﻿using UnityEngine;
+
+namespace Game
 {
     public delegate void SentinelObserverEventHandler();
     public class SentinelObserver : BaseObserver
@@ -9,6 +11,7 @@
 
         private bool PlayerIsSeen
         {
+            get => playerIsSeen;
             set
             {
                 // We only invoke the OnPlayerSeen event if the player wasn't previously seen.
