@@ -8,6 +8,8 @@ namespace Game
     
     public class Investigation : MonoBehaviour
     {
+        // TODO Subscribe to CurseEventChannel and whenever a position is published, investigate
+
         public event InvestigationEventHandler OnInvestigationRequest;
         public event InvestigationEventHandler OnInvestigationFinished;
         

@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Game
 {
@@ -51,14 +50,6 @@ namespace Game
         {
             isInvestigating = false;
             UpdateBehaviour();
-        }
-
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                investigation.RequestInvestigation(new Vector3(-18, 0, -1));
-            }
         }
     }
 }

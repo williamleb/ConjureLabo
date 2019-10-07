@@ -45,13 +45,21 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="Ghost.cs" t="Include" />
+            <e p="Investigation.cs" t="Include" />
+            <e p="Run.cs" t="Include" />
+            <e p="Sentinel.cs" t="Include" />
+            <e p="WaypointPatrol.cs" t="Include" />
+          </e>
           <e p="Billboard.cs" t="Include" />
           <e p="CollectibleHover.cs" t="Include" />
+          <e p="Curse.cs" t="Include" />
+          <e p="CurseEventChannel.cs" t="Include" />
+          <e p="CurseSensor.cs" t="Include" />
           <e p="FinalDoor.cs" t="Include" />
           <e p="GameEnding.cs" t="Include" />
-          <e p="Ghost.cs" t="Include" />
           <e p="GlobalControls.cs" t="Include" />
-          <e p="Investigation.cs" t="Include" />
           <e p="InvisiblePad.cs" t="Include" />
           <e p="InvisiblePadSensor.cs" t="Include" />
           <e p="Key.cs" t="Include" />
@@ -76,7 +84,6 @@
           <e p="UI" t="Include">
             <e p="MainMenu.cs" t="Include" />
           </e>
-          <e p="WaypointPatrol.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="PlaneFog.shader" t="Include" />
