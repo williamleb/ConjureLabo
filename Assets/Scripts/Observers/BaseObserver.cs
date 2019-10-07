@@ -1,12 +1,10 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Game
 {
-    public class Observer : MonoBehaviour
+    public class BaseObserver : MonoBehaviour
     {
         [SerializeField] private Transform player;
-        [SerializeField] private GameEnding gameEnding;
 
         private bool isPlayerInRange;
 
@@ -31,13 +29,16 @@ namespace Game
             }
         }
 
-        private void Update()
+        protected bool IsPlayerInSight()
         {
+            var playerIsInSight = false;
+
             if (isPlayerInRange)
             {
                 var position = transform.position;
                 var direction = player.position - position + Vector3.up;
                 var ray = new Ray(position, direction);
+
 
                 RaycastHit raycastHit;
                 if (Physics.Raycast(ray, out raycastHit))
@@ -47,11 +48,13 @@ namespace Game
                         var invisiblePadSensor = raycastHit.collider.GetComponent<InvisiblePadSensor>();
                         if (invisiblePadSensor != null && !invisiblePadSensor.IsInvisible)
                         {
-                            gameEnding.CaughtPlayer();
+                            playerIsInSight = true;
                         }
                     }
                 }
             }
+            
+            return playerIsInSight;
         }
     }
 }

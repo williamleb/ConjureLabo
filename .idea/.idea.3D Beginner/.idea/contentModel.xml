@@ -59,7 +59,11 @@
           <e p="KeySpawner.cs" t="Include" />
           <e p="LightFlicker.cs" t="Include" />
           <e p="MaterialSwapper.cs" t="Include" />
-          <e p="Observer.cs" t="Include" />
+          <e p="Observers" t="Include">
+            <e p="BaseObserver.cs" t="Include" />
+            <e p="GameEndingObserver.cs" t="Include" />
+            <e p="SentinelObserver.cs" t="Include" />
+          </e>
           <e p="Outliner.cs" t="Include" />
           <e p="Parameters" t="Include">
             <e p="FinalDoorAnimatorParameters.cs" t="Include" />

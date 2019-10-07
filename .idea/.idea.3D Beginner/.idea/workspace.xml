@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animation/Sentinel@Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animation/Sentinel@Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/GameEndingObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/GameEndingObserver.cs.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +36,20 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/0a/9eb983f2/SkinnedMeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/b0/6bbdbcac/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Level 1 Monster Pack/Images/Bat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/FinalDoorAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outliner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinalDoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/GameEndingObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeechBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/e5/9ee747d0/Slider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tim's Assets/Doors/Animation.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -80,11 +92,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Investigation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Invisible.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapperEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEndingObseerver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEndingObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/GameEndingObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" />
       </list>
     </option>
   </component>
@@ -144,7 +162,7 @@
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
-      <workItem from="1570392255532" duration="3433000" />
+      <workItem from="1570392255532" duration="5217000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -293,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570402355709</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[Sentinel] Making the sentinel follow a path.">
+      <created>1570405455076</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570405455076</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +359,8 @@
     <MESSAGE value="[InvisibilityPad] Making the player invincible while invisible." />
     <MESSAGE value="[InvisiblePad] Changing the material swapper so it actually swaps materials." />
     <MESSAGE value="[InvisiblePad] Making so the player makes a sound when they enter an invisible pad." />
-    <option name="LAST_COMMIT_MESSAGE" value="[InvisiblePad] Making so the player makes a sound when they enter an invisible pad." />
+    <MESSAGE value="[Sentinel] Making the sentinel follow a path." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Making the sentinel follow a path." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
