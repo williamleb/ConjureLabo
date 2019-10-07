@@ -26,7 +26,7 @@ namespace Game
         {
             var keyHolder = other.GetComponent<KeyHolder>();
 
-            if (keyHolder != null)
+            if (keyHolder)
             {
                 if (keyHolder.HasKey)
                 {
@@ -43,7 +43,7 @@ namespace Game
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.GetComponent<KeyHolder>() != null)
+            if (other.GetComponent<KeyHolder>())
             {
                 speechBubble.Hide();
             }

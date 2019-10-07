@@ -46,7 +46,7 @@ namespace Game
                     if (raycastHit.collider.transform == player)
                     {
                         var invisiblePadSensor = raycastHit.collider.GetComponent<InvisiblePadSensor>();
-                        if (invisiblePadSensor != null && !invisiblePadSensor.IsInvisible)
+                        if (invisiblePadSensor && !invisiblePadSensor.IsInvisible)
                         {
                             playerIsInSight = true;
                         }

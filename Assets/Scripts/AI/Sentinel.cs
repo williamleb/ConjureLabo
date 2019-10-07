@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace Game
 {
@@ -13,14 +15,19 @@ namespace Game
             Cursing
         }
 
-        [SerializeField] private SentinelObserver sentinelObserver; // Know when the player is spotted
-        [SerializeField] private Curse curse; // Activate/deactivate when 
-        [SerializeField] private CurseEventChannel curseEventChannel; // Know when the curse was finished.
+        [SerializeField] private SentinelObserver sentinelObserver;
+        [SerializeField] private CurseEventChannel curseEventChannel;
         
-        [SerializeField] private Vector3 cursePosition; // Position to put when cursing
+        [SerializeField] private Curse curse;
+
+        [SerializeField] private Transform[] spawnPoints;
+        [Tooltip("Position where the Sentinel will be teleported when cursing. This position should not be visible by the player in game.")]
+        [SerializeField] private Transform cursePosition;
         
         private WaypointPatrol waypointPatrol;
         private Run run;
+
+        private NavMeshAgent navMeshAgent;
         
         private State state;
 
@@ -28,36 +35,50 @@ namespace Game
         {
             waypointPatrol = GetComponent<WaypointPatrol>();
             run = GetComponent<Run>();
+            navMeshAgent = GetComponent<NavMeshAgent>();
 
             state = State.Patrolling;
         }
 
         private void OnEnable()
         {
-            sentinelObserver.OnPlayerSeen += StartRunning;
-            // Curse.onCurse...
-            curseEventChannel.OnCurseFinished += Respawn;
+            sentinelObserver.OnPlayerSeen += TransitionToRunning;
+            curse.OnCursedSensor += TransitionToCursing;
+            curseEventChannel.OnCurseFinished += TransitionToPatrolling;
         }
 
         private void OnDisable()
         {
-            sentinelObserver.OnPlayerSeen -= StartRunning;
-            // Curse.onCurse...
-            curseEventChannel.OnCurseFinished -= Respawn;
+            sentinelObserver.OnPlayerSeen -= TransitionToRunning;
+            curse.OnCursedSensor -= TransitionToCursing;
+            curseEventChannel.OnCurseFinished -= TransitionToPatrolling;
         }
-
-        private void StartRunning()
-        {
-            // TODO Enable run and curse and update speed
-        }
-
-        private void Respawn()
-        {
-            // TODO Return to a random spot and reset speed and enable patrol
-        }
-
+        
         private void Start()
         {
+            TransitionToPatrolling();
+        }
+
+        private void TransitionToRunning()
+        {
+            state = State.Running;
+            UpdateBehaviour();
+        }
+        
+        private void TransitionToCursing()
+        {
+            navMeshAgent.Warp(cursePosition.position);
+
+            state = State.Cursing;
+            UpdateBehaviour();
+        }
+
+        private void TransitionToPatrolling()
+        {
+            navMeshAgent.Warp(spawnPoints[Random.Range(0, spawnPoints.Length)].position);
+            waypointPatrol.ShuffleWaypointsOrder();
+            
+            state = State.Patrolling;
             UpdateBehaviour();
         }
 
@@ -66,11 +87,18 @@ namespace Game
             switch (state)
             {
                 case State.Patrolling:
-                    break; // TODO Enable/disable right behaviours
+                    waypointPatrol.enabled = true;
+                    run.enabled = false;
+                    curse.enabled = false;
+                    break;
                 case State.Running:
-                    break; // TODO Enable/disable right behaviours
-                default:
-                    // TODO Curse
+                    waypointPatrol.enabled = false;
+                    run.enabled = true;
+                    curse.enabled = true;
+                    break;
+                default: // State.Cursing
+                    waypointPatrol.enabled = false;
+                    run.enabled = false;
                 break;
             }
         }

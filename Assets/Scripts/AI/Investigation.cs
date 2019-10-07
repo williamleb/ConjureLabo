@@ -8,10 +8,10 @@ namespace Game
     
     public class Investigation : MonoBehaviour
     {
-        // TODO Subscribe to CurseEventChannel and whenever a position is published, investigate
-
         public event InvestigationEventHandler OnInvestigationRequest;
         public event InvestigationEventHandler OnInvestigationFinished;
+
+        [SerializeField] private CurseEventChannel curseEventChannel;
         
         private NavMeshAgent navMeshAgent;
 
@@ -24,10 +24,20 @@ namespace Game
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
-        public void RequestInvestigation(Vector3 position)
+        private void OnEnable()
         {
-            investigatingPosition = position;
-            OnInvestigationRequest?.Invoke();
+            if (curseEventChannel)
+            {
+                curseEventChannel.OnCursePositionUpdated += RequestInvestigation;
+            }
+        }
+
+        private void OnDisable()
+        {
+            if (curseEventChannel)
+            {
+                curseEventChannel.OnCursePositionUpdated -= RequestInvestigation;
+            }
         }
 
         private void Update()
@@ -38,6 +48,12 @@ namespace Game
             { 
                 OnInvestigationFinished?.Invoke();
             }
+        }
+        
+        private void RequestInvestigation(Vector3 position)
+        {
+            investigatingPosition = position;
+            OnInvestigationRequest?.Invoke();
         }
 
         private bool CheckIfInvestigationIsFinished()

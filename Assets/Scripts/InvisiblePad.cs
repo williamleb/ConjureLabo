@@ -16,7 +16,7 @@ namespace Game
         {
             var invisiblePadSensor = other.GetComponent<InvisiblePadSensor>();
 
-            if (invisiblePadSensor != null)
+            if (invisiblePadSensor)
             {
                 invisiblePadSensor.OnInvisiblePadEntered();
                 audioSource.Play();
@@ -27,7 +27,7 @@ namespace Game
         {
             var invisiblePadSensor = other.GetComponent<InvisiblePadSensor>();
             
-            if (invisiblePadSensor != null)
+            if (invisiblePadSensor)
             {
                 invisiblePadSensor.OnInvisiblePadLeft();
                 audioSource.Play();

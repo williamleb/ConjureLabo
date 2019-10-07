@@ -46,5 +46,10 @@ namespace Game
         {
             navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
         }
+
+        public void ShuffleWaypointsOrder()
+        {
+            waypoints.Shuffle();
+        }
     }
 }

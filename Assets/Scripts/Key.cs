@@ -26,7 +26,7 @@ namespace Game
             {
                 var keyHolder = other.GetComponent<KeyHolder>();
 
-                if (keyHolder != null)
+                if (keyHolder)
                 {
                     keyHolder.GiveKey();
                     
