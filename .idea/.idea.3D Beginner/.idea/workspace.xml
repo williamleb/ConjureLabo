@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -113,7 +116,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Curse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/IListExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Run.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" />
@@ -121,6 +123,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" />
       </list>
     </option>
   </component>
@@ -180,7 +183,7 @@
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
-      <workItem from="1570392255532" duration="18324000" />
+      <workItem from="1570392255532" duration="19770000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -371,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570483166263</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[Sentinel] Placing many invisible pads in the scene so the player can escape the ghost or the sentinel.">
+      <created>1570562316598</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570562316598</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +428,8 @@
     <MESSAGE value="[Sentinel] Making most of the sentinel/curse behaviour." />
     <MESSAGE value="[Sentinel] Fixing a bug that caused the Sentinel not to see the player and a bug that caused the Sentinel not to move at the start of the game." />
     <MESSAGE value="[Sentinel] Fixing a bug that caused the ghosts nnot to investigate a cursed player." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Fixing a bug that caused the ghosts nnot to investigate a cursed player." />
+    <MESSAGE value="[Sentinel] Placing many invisible pads in the scene so the player can escape the ghost or the sentinel." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Placing many invisible pads in the scene so the player can escape the ghost or the sentinel." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

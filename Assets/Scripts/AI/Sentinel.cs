@@ -26,8 +26,8 @@ namespace Game
         
         private WaypointPatrol waypointPatrol;
         private Run run;
-
         private NavMeshAgent navMeshAgent;
+        private AudioSource screamAudioSource;
         
         private State state;
 
@@ -36,6 +36,7 @@ namespace Game
             waypointPatrol = GetComponent<WaypointPatrol>();
             run = GetComponent<Run>();
             navMeshAgent = GetComponent<NavMeshAgent>();
+            screamAudioSource = GetComponent<AudioSource>();
 
             state = State.Patrolling;
         }
@@ -61,6 +62,7 @@ namespace Game
 
         private void TransitionToRunning()
         {
+            screamAudioSource.Play();
             state = State.Running;
             UpdateBehaviour();
         }
