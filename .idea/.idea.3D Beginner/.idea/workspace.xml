@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +180,7 @@
       <workItem from="1569350998815" duration="5306000" />
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
-      <workItem from="1570392255532" duration="16735000" />
+      <workItem from="1570392255532" duration="18324000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -366,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570481523933</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="[Sentinel] Fixing a bug that caused the ghosts nnot to investigate a cursed player.">
+      <created>1570483166263</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570483166263</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +417,8 @@
     <MESSAGE value="[Sentinel] Setting the bases for the Sentinel AI." />
     <MESSAGE value="[Sentinel] Making most of the sentinel/curse behaviour." />
     <MESSAGE value="[Sentinel] Fixing a bug that caused the Sentinel not to see the player and a bug that caused the Sentinel not to move at the start of the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Fixing a bug that caused the Sentinel not to see the player and a bug that caused the Sentinel not to move at the start of the game." />
+    <MESSAGE value="[Sentinel] Fixing a bug that caused the ghosts nnot to investigate a cursed player." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Fixing a bug that caused the ghosts nnot to investigate a cursed player." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
