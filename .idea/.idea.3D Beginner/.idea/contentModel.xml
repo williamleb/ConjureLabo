@@ -57,28 +57,32 @@
           </e>
           <e p="Billboard.cs" t="Include" />
           <e p="CollectibleHover.cs" t="Include" />
-          <e p="Curse.cs" t="Include" />
-          <e p="CurseEventChannel.cs" t="Include" />
-          <e p="CurseSensor.cs" t="Include" />
+          <e p="Curse" t="Include">
+            <e p="Curse.cs" t="Include" />
+            <e p="CurseEventChannel.cs" t="Include" />
+            <e p="CurseSensor.cs" t="Include" />
+          </e>
           <e p="Extensions" t="Include">
             <e p="IListExtensions.cs" t="Include" />
           </e>
           <e p="FinalDoor.cs" t="Include" />
           <e p="GameEnding.cs" t="Include" />
           <e p="GlobalControls.cs" t="Include" />
-          <e p="InvisiblePad.cs" t="Include" />
-          <e p="InvisiblePadSensor.cs" t="Include" />
-          <e p="Key.cs" t="Include" />
-          <e p="KeyHolder.cs" t="Include" />
-          <e p="KeySpawner.cs" t="Include" />
-          <e p="LightFlicker.cs" t="Include" />
+          <e p="InvisiblePad" t="Include">
+            <e p="InvisiblePad.cs" t="Include" />
+            <e p="InvisiblePadSensor.cs" t="Include" />
+          </e>
+          <e p="Key" t="Include">
+            <e p="Key.cs" t="Include" />
+            <e p="KeyHolder.cs" t="Include" />
+            <e p="KeySpawner.cs" t="Include" />
+          </e>
           <e p="MaterialSwapper.cs" t="Include" />
           <e p="Observers" t="Include">
             <e p="BaseObserver.cs" t="Include" />
             <e p="GameEndingObserver.cs" t="Include" />
             <e p="SentinelObserver.cs" t="Include" />
           </e>
-          <e p="Outliner.cs" t="Include" />
           <e p="Parameters" t="Include">
             <e p="FinalDoorAnimatorParameters.cs" t="Include" />
             <e p="JohnLemonAnimatorParameters.cs" t="Include" />
@@ -86,6 +90,10 @@
           </e>
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementTutorial.cs" t="Include" />
+          <e p="ProvidedScripts" t="Include">
+            <e p="LightFlicker.cs" t="Include" />
+            <e p="Outliner.cs" t="Include" />
+          </e>
           <e p="ScreenEffects" t="Include">
             <e p="ClaustrophobiaScreenEffect.cs" t="Include" />
             <e p="CurseScreenEffect.cs" t="Include" />

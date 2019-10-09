@@ -23,17 +23,13 @@ namespace Game
             navMeshAgent = GetComponent<NavMeshAgent>();
             
             if (curseEventChannel)
-            {
                 curseEventChannel.OnCursePositionUpdated += RequestInvestigation;
-            }
         }
 
         private void OnDestroy()
         {
             if (curseEventChannel)
-            {
                 curseEventChannel.OnCursePositionUpdated -= RequestInvestigation;
-            }
         }
 
         private void Update()

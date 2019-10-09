@@ -2,16 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Curse.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClaustrophobiaEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClaustrophobiaEffect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Curse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/Curse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Curse.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/Curse.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseEventChannel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseEventChannel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePad.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/Key.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/Key.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeyHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeyHolder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeySpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/LightFlicker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/LightFlicker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/Outliner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/Outliner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +48,11 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/2a/8faf7a42/BaseSlider`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key/KeySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Flames Of The Phoenix/Fire/Complex.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,17 +63,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleHover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/IListExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outliner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Curse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/LightFlicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/Outliner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Curse/Curse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/JohnLemonAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/InvisiblePad.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Sentinel.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Curse/CurseEventChannel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Materials/Animated.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/0a/9eb983f2/SkinnedMeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -68,9 +92,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observers/GameEndingObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Ghost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Key/KeyHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/85FB3424-3B0E-44F4-9781-2EEC871A60AD/d3/0f67beaf/Button.cs" root0="SKIP_HIGHLIGHTING" />
@@ -104,7 +128,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapperEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEndingObseerver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEndingObserver.cs" />
@@ -117,20 +140,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Curse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/IListExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Run.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClaustrophobiaEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClaustrophobiaEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CurseEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +217,7 @@
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
       <workItem from="1570392255532" duration="20580000" />
-      <workItem from="1570568200356" duration="3989000" />
+      <workItem from="1570568200356" duration="5896000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -403,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570570108627</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[Sentinel] Adding a visual effect when the Sentinel catch up to the player.">
+      <created>1570631861325</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1570631861325</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="[GameMenu] Allowing the user to change the game's volume in the main menu." />
     <MESSAGE value="[GameMenu] Creating the speech bubble." />
     <MESSAGE value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
     <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
@@ -451,7 +483,8 @@
     <MESSAGE value="[Sentinel] Placing many invisible pads in the scene so the player can escape the ghost or the sentinel." />
     <MESSAGE value="[Sentinel] Adding sounds for the Sentinel and the curse." />
     <MESSAGE value="Adding a visual effect when the Sentinel is near." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a visual effect when the Sentinel is near." />
+    <MESSAGE value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,51 +493,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/WaypointPatrol.cs" initialLine="28" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" initialLine="19">
-            <startOffsets>
-              <option value="402" />
-            </startOffsets>
-            <endOffsets>
-              <option value="425" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" initialLine="37">
-            <startOffsets>
-              <option value="791" />
-            </startOffsets>
-            <endOffsets>
-              <option value="825" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs</url>
-          <line>45</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" initialLine="45">
-            <startOffsets>
-              <option value="1092" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1136" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

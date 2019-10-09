@@ -43,10 +43,12 @@ namespace Game
                 RaycastHit raycastHit;
                 if (Physics.Raycast(ray, out raycastHit))
                 {
+                    // First condition: the player is not behind an object.
                     if (raycastHit.collider.transform == player)
                     {
+                        // Second condition: the player is not stepping on an invisible pad.
                         var invisiblePadSensor = raycastHit.collider.GetComponent<InvisiblePadSensor>();
-                        if (invisiblePadSensor && !invisiblePadSensor.IsInvisible)
+                        if (!invisiblePadSensor || (invisiblePadSensor && !invisiblePadSensor.IsInvisible))
                         {
                             playerIsInSight = true;
                         }

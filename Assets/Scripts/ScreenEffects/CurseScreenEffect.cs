@@ -46,11 +46,6 @@ namespace Game
                     isFading = false;
                 }
             }
-
-            if (Input.GetKeyDown(KeyCode.B))
-            {
-                StartEffect();
-            }
         }
     }
 }

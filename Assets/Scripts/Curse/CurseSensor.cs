@@ -30,6 +30,7 @@ namespace Game
             {
                 curseEventChannel.PublishNewCursePosition(transform.position);
 
+                // The only condition for the curse to stop is the player entering an invisible pad.
                 if (invisiblePadSensor.IsInvisible)
                 {
                     StopCurse();

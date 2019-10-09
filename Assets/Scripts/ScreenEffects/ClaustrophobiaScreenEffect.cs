@@ -8,6 +8,7 @@ namespace Game
         [SerializeField] private Transform player;
         [SerializeField] private Transform sentinel;
 
+        [Tooltip("The maximum distance between the player and the sentinel for the effect to show.")]
         [SerializeField] private float maxDistance = 10f;
 
         private CanvasGroup claustrophobiaCanvasGroup;

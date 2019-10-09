@@ -26,6 +26,7 @@ namespace Game
         
         private WaypointPatrol waypointPatrol;
         private Run run;
+        
         private NavMeshAgent navMeshAgent;
         private AudioSource screamAudioSource;
         
@@ -35,6 +36,7 @@ namespace Game
         {
             waypointPatrol = GetComponent<WaypointPatrol>();
             run = GetComponent<Run>();
+            
             navMeshAgent = GetComponent<NavMeshAgent>();
             screamAudioSource = GetComponent<AudioSource>();
 
@@ -59,10 +61,20 @@ namespace Game
         {
             TransitionToPatrolling();
         }
+        
+        private void TransitionToPatrolling()
+        {
+            navMeshAgent.Warp(spawnPoints[Random.Range(0, spawnPoints.Length)].position);
+            waypointPatrol.ShuffleWaypointsOrder();
+            
+            state = State.Patrolling;
+            UpdateBehaviour();
+        }
 
         private void TransitionToRunning()
         {
             screamAudioSource.Play();
+            
             state = State.Running;
             UpdateBehaviour();
         }
@@ -75,34 +87,12 @@ namespace Game
             UpdateBehaviour();
         }
 
-        private void TransitionToPatrolling()
-        {
-            navMeshAgent.Warp(spawnPoints[Random.Range(0, spawnPoints.Length)].position);
-            waypointPatrol.ShuffleWaypointsOrder();
-            
-            state = State.Patrolling;
-            UpdateBehaviour();
-        }
-
         private void UpdateBehaviour()
         {
-            switch (state)
-            {
-                case State.Patrolling:
-                    waypointPatrol.enabled = true;
-                    run.enabled = false;
-                    curse.enabled = false;
-                    break;
-                case State.Running:
-                    waypointPatrol.enabled = false;
-                    run.enabled = true;
-                    curse.enabled = true;
-                    break;
-                default: // State.Cursing
-                    waypointPatrol.enabled = false;
-                    run.enabled = false;
-                break;
-            }
+            waypointPatrol.enabled = state == State.Patrolling;
+
+            run.enabled = state == State.Running;
+            curse.enabled = state == State.Running;
         }
     }
 }
