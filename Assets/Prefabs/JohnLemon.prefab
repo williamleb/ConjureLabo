@@ -1756,7 +1756,11 @@ PrefabInstance:
       propertyPath: m_Shadows.m_Type
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7060284247409529066, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 6836782460440226406, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 5329205324946683739, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
+    - {fileID: 725454718051005934, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cee4080b07c98f1488ce5a83745d0b94, type: 3}
 --- !u!1 &5271088245418890052 stripped
 GameObject:

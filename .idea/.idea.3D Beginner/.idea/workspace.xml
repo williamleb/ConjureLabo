@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/0a/9eb983f2/SkinnedMeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Level 1 Monster Pack/Images/Bat.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/Scenes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parameters/FinalDoorAnimatorParameters.cs" root0="FORCE_HIGHLIGHTING" />
@@ -185,7 +186,7 @@
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
       <workItem from="1570392255532" duration="20580000" />
-      <workItem from="1570568200356" duration="7070000" />
+      <workItem from="1570568200356" duration="7717000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -418,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570634312331</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[JohnLemonMovingAutomaticallyBug] Fixed a bug that sometimes caused John Lemon to move without any player interaction (this was caused by Unity physic system).">
+      <created>1570634999211</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570634999211</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +449,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
     <MESSAGE value="[Key] Creating the visual for the key" />
     <MESSAGE value="[Key] Creating the logic with the key and the door opening." />
     <MESSAGE value="[Key] The key goes to a random spot at the start of the game." />
@@ -466,7 +473,8 @@
     <MESSAGE value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
     <MESSAGE value="[Cleanup] Cleaning the C# project." />
     <MESSAGE value="[Cleanup] Cleaning the Unity project." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Cleanup] Cleaning the Unity project." />
+    <MESSAGE value="[JohnLemonMovingAutomaticallyBug] Fixed a bug that sometimes caused John Lemon to move without any player interaction (this was caused by Unity physic system)." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JohnLemonMovingAutomaticallyBug] Fixed a bug that sometimes caused John Lemon to move without any player interaction (this was caused by Unity physic system)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
