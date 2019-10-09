@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Curse.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Investigation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Sentinel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/WaypointPatrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Curse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/Curse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Curse.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/Curse.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseEventChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseEventChannel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseEventChannel.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CurseSensor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Curse/CurseSensor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePad.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisiblePadSensor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisiblePad/InvisiblePadSensor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/Key.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeyHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyHolder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeyHolder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeySpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Key/KeySpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/LightFlicker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/LightFlicker.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MaterialSwapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/BaseObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Observers/SentinelObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/Outliner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Outliner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProvidedScripts/Outliner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/ClaustrophobiaScreenEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenEffects/CurseScreenEffect.cs" afterDir="false" />
-    </list>
+    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +182,7 @@
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
       <workItem from="1570392255532" duration="20580000" />
-      <workItem from="1570568200356" duration="5896000" />
+      <workItem from="1570568200356" duration="6439000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -436,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570631861325</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[Cleanup] Cleaning the C# project.">
+      <created>1570633784619</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1570633784619</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="[GameMenu] Creating the speech bubble." />
     <MESSAGE value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
     <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
     <MESSAGE value="[Key] Creating the visual for the key" />
@@ -484,7 +455,8 @@
     <MESSAGE value="[Sentinel] Adding sounds for the Sentinel and the curse." />
     <MESSAGE value="Adding a visual effect when the Sentinel is near." />
     <MESSAGE value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
+    <MESSAGE value="[Cleanup] Cleaning the C# project." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Cleanup] Cleaning the C# project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
