@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,7 @@
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
       <workItem from="1570392255532" duration="20580000" />
-      <workItem from="1570568200356" duration="7717000" />
+      <workItem from="1570568200356" duration="7958000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -426,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570634999211</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="[Hotfix] Fixed a bug that caused the key held by John Lemon to make sound.">
+      <created>1570635614321</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1570635614321</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[Hotfix] Fixed a bug that caused the key held by John Lemon to make sound.">
+      <created>1570635809708</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570635809708</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="[Key] Creating the visual for the key" />
     <MESSAGE value="[Key] Creating the logic with the key and the door opening." />
     <MESSAGE value="[Key] The key goes to a random spot at the start of the game." />
     <MESSAGE value="[Key] Allowing the character to hold the key." />
@@ -474,7 +484,8 @@
     <MESSAGE value="[Cleanup] Cleaning the C# project." />
     <MESSAGE value="[Cleanup] Cleaning the Unity project." />
     <MESSAGE value="[JohnLemonMovingAutomaticallyBug] Fixed a bug that sometimes caused John Lemon to move without any player interaction (this was caused by Unity physic system)." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JohnLemonMovingAutomaticallyBug] Fixed a bug that sometimes caused John Lemon to move without any player interaction (this was caused by Unity physic system)." />
+    <MESSAGE value="[Hotfix] Fixed a bug that caused the key held by John Lemon to make sound." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Hotfix] Fixed a bug that caused the key held by John Lemon to make sound." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
