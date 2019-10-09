@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="" />
+    <list default="true" id="78ed7f2f-68a2-4fd2-a1d1-d6e84a201a40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Beginner/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JohnLemon.prefab" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +185,7 @@
       <workItem from="1569542186318" duration="2637000" />
       <workItem from="1569686116545" duration="31429000" />
       <workItem from="1570392255532" duration="20580000" />
-      <workItem from="1570568200356" duration="6439000" />
+      <workItem from="1570568200356" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="[GameMenu] Creating static variables for scenes.">
       <created>1569686505296</created>
@@ -408,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570633784619</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[Cleanup] Cleaning the Unity project.">
+      <created>1570634312331</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1570634312331</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="[GameMenu] Showing a mini tutorial when clicking on &quot;Controls&quot; in the main menu." />
     <MESSAGE value="[EscapeToReturnToMainMenu] Allowing the user to press Escape during gameplay to return to the main menu." />
     <MESSAGE value="[Key] Creating the visual for the key" />
     <MESSAGE value="[Key] Creating the logic with the key and the door opening." />
@@ -456,7 +465,8 @@
     <MESSAGE value="Adding a visual effect when the Sentinel is near." />
     <MESSAGE value="[Sentinel] Adding a visual effect when the Sentinel catch up to the player." />
     <MESSAGE value="[Cleanup] Cleaning the C# project." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Cleanup] Cleaning the C# project." />
+    <MESSAGE value="[Cleanup] Cleaning the Unity project." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Cleanup] Cleaning the Unity project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
