@@ -40,6 +40,7 @@ namespace Game
         public void OnCurseStarted()
         {
             isCursed = true;
+            curseEventChannel.PublishCurseStarted();
             
             UpdateCurseVisual();
         }

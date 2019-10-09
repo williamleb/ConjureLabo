@@ -1,10 +1,9 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.Assertions;
 
 namespace Game
 {
-    public class ClaustrophobiaEffect : MonoBehaviour
+    public class ClaustrophobiaScreenEffect : MonoBehaviour
     {
         [SerializeField] private Transform player;
         [SerializeField] private Transform sentinel;

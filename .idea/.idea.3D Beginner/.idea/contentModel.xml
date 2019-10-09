@@ -56,7 +56,6 @@
             <e p="WaypointPatrol.cs" t="Include" />
           </e>
           <e p="Billboard.cs" t="Include" />
-          <e p="ClaustrophobiaEffect.cs" t="Include" />
           <e p="CollectibleHover.cs" t="Include" />
           <e p="Curse.cs" t="Include" />
           <e p="CurseEventChannel.cs" t="Include" />
@@ -87,6 +86,10 @@
           </e>
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementTutorial.cs" t="Include" />
+          <e p="ScreenEffects" t="Include">
+            <e p="ClaustrophobiaScreenEffect.cs" t="Include" />
+            <e p="CurseScreenEffect.cs" t="Include" />
+          </e>
           <e p="SpeechBubble.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="MainMenu.cs" t="Include" />
